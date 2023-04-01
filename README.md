@@ -6,7 +6,7 @@ Adaptive multiple 2D histograms modification based RDH
 This repo is implementation for the accepted paper "[Reversible data hiding based on multiple adaptive two-dimensional prediction-error histograms modification](https://ieeexplore.ieee.org/document/9605567)" (TCSVT 2022).
 
 
-<p align="center"> <img src="./results/work.jpg" width="70%">    </p>
+<p align="center"> <img src="./results/work.jpg" width="100%">    </p>
 <p align="center"> Figure 1: Framework of the adaptive multiple 2D mappings generation for MHM. </p>
 
 
@@ -42,16 +42,16 @@ run main.m
 
 ## Experimental Results
 
-<p align="center"> <img src="./results/R0.jpg" width="60%">    </p>
+<p align="center"> <img src="./results/R0.jpg" width="100%">    </p>
 <p align="center"> Figure 2: The adaptive 2D mappings. </p>
 
-<p align="center"> <img src="./results/R1.jpg" width="60%">    </p>
+<p align="center"> <img src="./results/R1.jpg" width="100%">    </p>
 <p align="center"> Figure 3: The PSNR resukls for Lena and Baboon. </p>
 
-<p align="center"> <img src="./results/R2.jpg" width="60%">    </p>
+<p align="center"> <img src="./results/R2.jpg" width="100%">    </p>
 <p align="center"> Figure 4: The PSNR results for fixed embedding capacity. </p>
 
-<p align="center"> <img src="./results/R3.jpg" width="60%">    </p>
+<p align="center"> <img src="./results/R3.jpg" width="100%">    </p>
 <p align="center"> Figure 5: The comparison for the basic method and the extensions. </p>
 
 
