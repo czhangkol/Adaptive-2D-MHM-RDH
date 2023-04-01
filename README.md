@@ -1,5 +1,5 @@
 
-Adaptive multiple 2D histograms modification based RDH
+RDH based on multiple adaptive 2D PEHs modification
 =======
 
 
