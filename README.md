@@ -1,29 +1,32 @@
 
-RDH based on multiple adaptive 2D PEHs modification
+基于自适应多成对PEE的RDH方法 
 =======
 
 
-This repo is implementation for the accepted paper "[Reversible data hiding based on multiple adaptive two-dimensional prediction-error histograms modification](https://ieeexplore.ieee.org/document/9605567)" (TCSVT 2022).
+论文名： "[Reversible data hiding based on multiple adaptive two-dimensional prediction-error histograms modification](https://ieeexplore.ieee.org/document/9605567)" (2022年发表于TCSVT).
 
 
-<p align="center"> <img src="./results/work.jpg" width="100%">    </p>
-<p align="center"> Figure 1: Framework of the adaptive multiple 2D mappings generation for MHM. </p>
+## 方法简介
+
+提出了一个自适应2D映射的生成方法，为基于高维映射的预测误差扩展方法提供了一个优化方案
+
+<p align="center"> <img src="./results/work.jpg" width="70%">    </p>
+<p align="center"> 图1: 自适应多个2D映射生成框架. </p>
 
 
+## 如何运行
 
 
-## How to run
-
-### Basic method 
-
+### 基础方法 
+论文的主要方法实现
 ```
 ## cd ./Basic
 
 run main.m 
 ```
 
-### Extension methods
-
+### 扩展方法
+论文最后讨论的三种扩展方法
 ```
 ## cd ./V1_fig16(a)
 
@@ -40,32 +43,32 @@ run main.m
 run main.m
 ```
 
-## Experimental Results
+## 实验结果
 
-<p align="center"> <img src="./results/R0.jpg" width="100%">    </p>
-<p align="center"> Figure 2: The adaptive 2D mappings. </p>
+<p align="center"> <img src="./results/R0.jpg" width="60%">    </p>
+<p align="center"> 图2: 生成的自适应2D映射. </p>
 
-<p align="center"> <img src="./results/R1.jpg" width="100%">    </p>
-<p align="center"> Figure 3: The PSNR resukls for Lena and Baboon. </p>
+<p align="center"> <img src="./results/R1.jpg" width="60%">    </p>
+<p align="center"> 图3: Lena和Baboon图像的PSNR结果. </p>
 
-<p align="center"> <img src="./results/R2.jpg" width="100%">    </p>
-<p align="center"> Figure 4: The PSNR results for fixed embedding capacity. </p>
+<p align="center"> <img src="./results/R2.jpg" width="60%">    </p>
+<p align="center"> 图4: 给定容量下的PSNR. </p>
 
-<p align="center"> <img src="./results/R3.jpg" width="100%">    </p>
-<p align="center"> Figure 5: The comparison for the basic method and the extensions. </p>
+<p align="center"> <img src="./results/R3.jpg" width="60%">    </p>
+<p align="center"> 图5: 对比扩展方法. </p>
 
 
-## Environment
+## 实验环境
 Matlab 2016b <br>
 
 
-## Acknowledgement
-This work was supported by the National Science Foundation of China under Grant 61872128 and Grant 92067104.
+## 致谢
+这项工作由中国国家自然科学基金（NSFC）支持，基金号： Nos. 61872128, 92067104
 
 
 
-## Citation
-If you find this work useful for your research, please cite
+## 引用格式
+如果这项工作对您的研究有帮助, 请按如下格式引用：
 ```
 @ARTICLE{9605567,
   author={Zhang, Cheng and Ou, Bo},
@@ -78,6 +81,6 @@ If you find this work useful for your research, please cite
   doi={10.1109/TCSVT.2021.3125711}}
 ```
 
-## License and Copyright
-The project is open source under MIT license (see the ``` LICENSE ``` file).
+## 版权声明
+本项目已开源 (详见 ``` MIT LICENSE ``` ).
 
